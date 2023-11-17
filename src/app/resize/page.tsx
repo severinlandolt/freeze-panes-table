@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import useResizeX from "@/hooks/useResizeX";
 import useResizeY from "@/hooks/useResizeY";
 import Table from "../_components/table";
@@ -29,8 +29,8 @@ const ResizablePanels = () => {
       style={{
         width: "100%",
         height: "100%",
-        maxHeight: `${maxContainerHeight}px`,
-        maxWidth: `${maxContainerWidth}px`,
+        // maxHeight: `${maxContainerHeight}px`,
+        // maxWidth: `${maxContainerWidth}px`,
         backgroundColor: "#6b7280",
       }}
     >
@@ -64,7 +64,6 @@ const ResizablePanels = () => {
           style={{
             position: "absolute",
             bottom: "0",
-            // right: "0",
             width: "100%",
             height: `${handleWidth}px`,
             backgroundColor: "#ffcc33",
