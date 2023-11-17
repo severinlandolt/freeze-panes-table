@@ -165,8 +165,8 @@ const header = [
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center w-full h-full">
-      <div className="resize overflow-auto border rounded w-full h-full">
+    <main className="flex items-center justify-center min-h-screen">
+      <div className="resize overflow-auto border rounded">
         <table className="border-separate border-spacing-0 w-full text-sm tabular-nums">
           <thead className="h-10">
             <tr className="font-medium">
