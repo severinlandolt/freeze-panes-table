@@ -72,7 +72,8 @@ const ResizablePanels = () => {
           }}
           onPointerDown={onResizeStartY}
         ></div>
-        <Table />
+        <div className="h-4/5 w-4/5 bg-green-500"></div>
+        {/* <Table /> */}
       </div>
     </div>
   );
