@@ -17,7 +17,7 @@ export default function Home() {
   // );
 
   return (
-    <main className="flex items-center justify-center min-h-screen">
+    <main className="flex items-center justify-center min-h-screen px-8 py-12">
       {/* <div
         ref={containerRef}
         className={`w-full max-w-6xl`}

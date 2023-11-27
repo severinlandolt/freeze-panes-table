@@ -165,12 +165,10 @@ const header = [
 
 export default function Table() {
   return (
-    <div
-      className="border rounded overflow-auto resize"
-    >
+    <div className="border rounded overflow-scroll resize w-auto h-auto">
       <table className="border-separate border-spacing-0 text-sm tabular-nums">
-        <thead className="h-10">
-          <tr className="font-medium">
+        <thead className="">
+          <tr className="font-medium h-10">
             {header.map((content, index) => (
               <th
                 key={index}
